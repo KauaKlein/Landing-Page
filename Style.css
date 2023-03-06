@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.title{
+    color: #22D4FD;
+}
+
+.pai{
+    margin: 14% 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.filho{
+    width: 615px ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulo{
+
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.p{
+    font-size: 24;
+    font-family: 'Krona One', sans-serif;
+}
+
+.git{
+    font-size: 14px;
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    color: #000000;
+    font-family: 'Krona One', sans-serif;
+}
+
+.insta{
+    font-size: 14px;
+    background-color: #22d4fd;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    color: #000000;
+    font-family: 'Krona One', sans-serif;
+}
+
+.link{
+    justify-content: space-between;
+    display: flex;
+}
