@@ -3,22 +3,26 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
+    font-size: 100%;
 }
 
 
 body{
-    height: 100vh;
+    justify-content: center; 
+    align-items: center;
+ 
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
 
 .title{
-    color: #22D4FD;
+    color: #8d1414;
 }
 
 .pai{
-    margin: 14% 18%;
+    margin: 10% 18%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,12 +33,12 @@ body{
     width: 615px ;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
 }
 
 .titulo{
 
-    font-size: 36px;
+    font-size: 34px;
     font-family: 'Krona One', sans-serif;
 }
 
@@ -45,7 +49,7 @@ body{
 
 .git{
     font-size: 14px;
-    background-color: #22D4FD;
+    background-color: #8d1414;
     width: 280px;
     text-align: center;
     border-radius: 16px;
@@ -57,7 +61,7 @@ body{
 
 .insta{
     font-size: 14px;
-    background-color: #22d4fd;
+    background-color: #8d1414;
     width: 280px;
     text-align: center;
     border-radius: 16px;
@@ -70,4 +74,8 @@ body{
 .link{
     justify-content: space-between;
     display: flex;
+}
+
+.i{
+    width: 400px;
 }
